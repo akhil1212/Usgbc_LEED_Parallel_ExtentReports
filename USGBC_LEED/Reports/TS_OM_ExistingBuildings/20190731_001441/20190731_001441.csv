@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-07-31 00:14:44,2019-07-31 01:06:47,52m - 2.681s,FAILED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices,Chrome 75.0.3770.100,,2019-07-31 00:14:44,2019-07-31 00:28:35,13m - 50.565s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices),Chrome 75.0.3770.100,,2019-07-31 00:14:45,2019-07-31 00:28:35,13m - 50.137s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_EnhancedRefrigerantManagement,Chrome 75.0.3770.100,,2019-07-31 00:28:35,2019-07-31 00:43:11,14m - 36.107s,FAILED
+runWithCucumberRunner(runner_OM_ExistingBuildings.EnhancedRefrigerantManagementTestRunner),Chrome 75.0.3770.100,,2019-07-31 00:28:35,2019-07-31 00:43:11,14m - 35.912s,FAILED
+,,,,,,
+Test Cases/TC_Delay,Chrome 75.0.3770.100,,2019-07-31 00:43:11,2019-07-31 00:44:18,1m - 7.173s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.100,,2019-07-31 00:43:11,2019-07-31 00:43:15,3.956s,PASSED
+"navigateToUrl(""https://leedonline-stg.usgbc.org"")",Chrome 75.0.3770.100,,2019-07-31 00:43:15,2019-07-31 00:43:18,3.074s,PASSED
+delay(60),Chrome 75.0.3770.100,,2019-07-31 00:43:18,2019-07-31 00:44:18,1m - 0.001s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_FundamentalRefregrantMgmt,Chrome 75.0.3770.100,,2019-07-31 00:44:18,2019-07-31 01:06:46,22m - 27.747s,FAILED
+runWithCucumberRunner(runner_OM_ExistingBuildings.FundamentalRefTestRunner),Chrome 75.0.3770.100,,2019-07-31 00:44:18,2019-07-31 01:06:46,22m - 27.574s,FAILED

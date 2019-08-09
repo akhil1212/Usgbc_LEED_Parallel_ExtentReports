@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 75.0.3770.142,,,2019-08-07 16:04:52,2019-08-07 16:05:15,23.149s,PASSED
+,,,,,,,
+Test Cases/TC_Login,Chrome 75.0.3770.142,,,2019-08-07 16:04:53,2019-08-07 16:05:14,21.014s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.142,,,2019-08-07 16:04:53,2019-08-07 16:04:53,0.169s,PASSED
+runWithCucumberRunner(common.LoginRunner),Chrome 75.0.3770.142,,,2019-08-07 16:04:53,2019-08-07 16:05:14,20.556s,PASSED

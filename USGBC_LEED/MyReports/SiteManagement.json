@@ -1,0 +1,389 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Filling Project Information form",
+        "description": "",
+        "id": "entering-data-to-site-management-form---leed-v4.1-o+m:-eb;filling-project-information-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method log() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:86)\r\n\tat ✽.User clicks on project O+M:EB(Include/features/OM_ExistingBuildings/SiteManagement.feature:14)\r\n",
+              "duration": 22494081799,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "User clicks on project O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "O+M:EB",
+                  "offset": 23
+                }
+              ],
+              "location": "Common_StepDef.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "Common_StepDef.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User should be on form Site Management",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 23
+                }
+              ],
+              "location": "Common_StepDef.user_should_be_on_FRM_form(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User uploads files to Add file button",
+            "match": {
+              "location": "Common_StepDef.user_uploads_files_to_Add_file_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User verifies the uploaded files",
+            "match": {
+              "location": "Common_StepDef.user_verifies_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User Enters data to Narrative field and verifies",
+            "match": {
+              "location": "Common_StepDef.user_enters_data_to_Narrative_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User clicks on Save button",
+            "match": {
+              "location": "Common_StepDef.User_clicks_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User can able to see the form got saved",
+            "match": {
+              "location": "Common_StepDef.user_can_able_to_see_the_form_got_saved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User verifies the revision icon present after saving the form",
+            "match": {
+              "location": "Common_StepDef.user_verifies_the_revision_icon_present_after_saving_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User dowloads the generated pdf form",
+            "match": {
+              "location": "Common_StepDef.user_verifies_the_PDF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User verifies the narrative from pdf and form page",
+            "match": {
+              "location": "Common_StepDef.user_verifies_the_narraive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User verifies the uploaded files from pdf and form page",
+            "match": {
+              "location": "Common_StepDef.user_verifies_the_uploaded_files_from_pdf_and_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User clicks the Complete icon to set status to Ready for Review",
+            "match": {
+              "location": "Common_StepDef.User_clicks_the_Complete_icon_to_set_status_to_Ready_for_Review()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User downloads the uploaded files and verifies",
+            "match": {
+              "location": "Common_StepDef.user_downloads_the_uploaded_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User clicks on cancel while deleting the uploaded file and verifies the files are retained",
+            "match": {
+              "location": "Common_StepDef.user_cancels_file_deleting_the_uploaded_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User deletes the uploaded files and verifies the files are deleted",
+            "match": {
+              "location": "Common_StepDef.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Checking Auto Save functionality in Site Management form",
+        "description": "",
+        "id": "entering-data-to-site-management-form---leed-v4.1-o+m:-eb;checking-auto-save-functionality-in-site-management-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke method log() on null object\r\n\tat org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:86)\r\n\tat ✽.User clicks on project O+M:EB(Include/features/OM_ExistingBuildings/SiteManagement.feature:37)\r\n",
+              "duration": 24513748470,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "User clicks on project O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "O+M:EB",
+                  "offset": 23
+                }
+              ],
+              "location": "Common_StepDef.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "Common_StepDef.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User should be on form Site Management",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 23
+                }
+              ],
+              "location": "Common_StepDef.user_should_be_on_FRM_form(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "User verifies form draft is saved automatically after 10 sec complete by filling the Narrative",
+            "match": {
+              "location": "Common_StepDef.user_verifies_Auto_save_after_entering_Narrative()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User will not make any changes in the form and verifies form is not saved as draft",
+            "match": {
+              "location": "Common_StepDef.user_will_not_make_any_changes_in_the_form_and_verifies_form_not_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "User uploads files to Add file button and verifies form is not saved as draft",
+            "match": {
+              "location": "Common_StepDef.user_uploads_files_to_Add_file_button_and_verifies_form_not_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "User logout and login to the form Site Management and rating O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Site Management",
+                  "offset": 34
+                },
+                {
+                  "val": " O+M:EB",
+                  "offset": 60
+                }
+              ],
+              "location": "Common_StepDef.user_logout_and_login_to_the_form(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "User verifies warning message of form saved as draft is present and draft not changed",
+            "match": {
+              "location": "Common_StepDef.user_verifies_warning_message_of_form_saved_as_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User clicks on Save button and deletes the uploaded files",
+            "match": {
+              "location": "Common_StepDef.User_clicks_on_Save_button_and_deletes_the_uploaded_files()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User verifies clear draft,warning message is not present",
+            "match": {
+              "location": "Common_StepDef.user_verifies_clear_draft_warning_message_are_not_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User verifies form draft is saved automatically after 10 sec complete by filling the Narrative",
+            "match": {
+              "location": "Common_StepDef.user_verifies_Auto_save_after_entering_Narrative()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User clicks on clear draft and verifies the draft is not present",
+            "match": {
+              "location": "Common_StepDef.user_clears_draft()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Entering data to Site Management form - LEED v4.1 O+M: EB",
+    "description": "",
+    "id": "entering-data-to-site-management-form---leed-v4.1-o+m:-eb",
+    "keyword": "Feature",
+    "uri": "Include/features/OM_ExistingBuildings/SiteManagement.feature",
+    "tags": []
+  }
+]

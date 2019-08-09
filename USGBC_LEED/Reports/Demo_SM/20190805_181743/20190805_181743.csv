@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo_SM,Chrome 75.0.3770.142,,,2019-08-05 18:17:47,2019-08-05 18:18:26,38.701s,FAILED
+,,,,,,,
+Test Cases/OM_ExistingBuildings/TC_SiteManagement,Chrome 75.0.3770.142,,,2019-08-05 18:17:47,2019-08-05 18:18:25,37.586s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.142,,,2019-08-05 18:17:47,2019-08-05 18:17:48,0.515s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.SiteManagementTestRunner),Chrome 75.0.3770.142,,,2019-08-05 18:17:49,2019-08-05 18:18:25,36.047s,FAILED

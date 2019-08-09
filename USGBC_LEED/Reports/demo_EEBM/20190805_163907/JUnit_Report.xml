@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demo_EEBM" time="662" tests="0" failures="1" errors="0">
+   <testsuite name="demo_EEBM" tests="0" failures="1" errors="0" time="662" timestamp="2019-08-05 16:39:15" hostname="promantus inc - G10PROLT025" id="Test Suites/demo_EEBM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190805_163907"/>
+         <property name="logFiles" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190805_163907\\execution0.log"/>
+         <property name="attachments" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190805_163907\\1565004016812.png"/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="20dac236567ac9b63a69f384fa9945d3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices" classname="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)
+"/>
+         <system-out><![CDATA[2019-08-05 16:39:15 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)
+
+
+2019-08-05 16:39:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-05 16:39:15 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-05 16:39:15 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-05 16:39:15 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-05 16:39:16 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-05 16:39:16 - [TEST_STEP][FAILED] - runWithCucumberRunner(runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)
+)
+
+2019-08-05 16:39:18 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 16:39:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:39:19 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 16:39:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-05 16:39:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 16:39:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 16:39:28 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 16:39:28 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-05 16:39:28 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 16:39:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:39:31 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 16:39:31 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 16:39:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 16:39:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:39:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:39:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:39:46 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 16:39:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:39:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:39:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:39:51 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-05 16:39:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:40:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:40:05 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-05 16:40:05 - [MESSAGE][PASSED] - Actual text 'Energy Efficiency Best Management Practices' and expected text 'Energy Efficiency Best Management Practices' are matched 
+
+2019-08-05 16:40:05 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-05 16:40:05 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:40:12 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:40:12 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:40:12 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:40:19 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:40:19 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:40:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:22 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:40:29 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:40:29 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:40:29 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:40:36 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:40:36 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:40:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:39 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:40:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:40:46 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:40:47 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:40:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:40:54 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:40:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:57 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:04 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:41:04 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:11 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:41:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:41:14 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:41:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:16 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 16:41:16 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:41:16 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:41:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:20 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 16:41:20 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:41:20 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:41:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:23 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 16:41:23 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:41:23 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:41:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:27 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 16:41:27 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:41:27 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:41:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:29 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 16:41:29 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:41:29 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:41:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:33 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 16:41:33 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:41:33 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:41:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:35 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 16:41:35 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:41:35 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:41:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:39 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 16:41:39 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:41:41 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.MQ3BJ' is set on object ''
+
+2019-08-05 16:41:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:43 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.MQ3BJ'
+
+2019-08-05 16:41:43 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.MQ3BJ' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.MQ3BJ' are matched 
+
+2019-08-05 16:41:43 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 16:41:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:41:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Jul 2019'
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - Actual text '05 Jul 2019' and expected text '' are not matched 
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Jul 2019'
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:41:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:41:50 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-08-05 16:41:56 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-05 16:41:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:41:58 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-05 16:41:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:42:14 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-05 16:42:15 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 16:42:15 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 16:42:15 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 16:42:16 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 16:42:16 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.MQ3BJ'
+
+2019-08-05 16:42:16 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 16:42:16 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Jul 2019'
+
+2019-08-05 16:42:16 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-05 16:42:17 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-08-05 16:42:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:42:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:28 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2019-08-05 16:42:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:42:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:35 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:42:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:42:40 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:42:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:42:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:50 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:42:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:42:55 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:42:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:43:05 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:43:05 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:43:05 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:43:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:43:10 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:43:10 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:43:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:43:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:19 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:43:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:24 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:43:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:33 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:43:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:39 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:43:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:43:49 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:43:49 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:43:49 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:43:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:43:54 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:43:54 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:43:54 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:43:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:03 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:44:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:08 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:44:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:17 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:44:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:27 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:44:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:44:37 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:44:37 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:44:37 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:44:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:44:42 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:44:42 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:44:42 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:44:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:52 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 16:44:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:02 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:45:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:45:11 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 16:45:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:21 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 16:45:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:45:31 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:45:31 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:45:31 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 16:45:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 16:45:36 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 16:45:36 - [MESSAGE][PASSED] - 
+
+2019-08-05 16:45:36 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 16:45:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:45:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:45:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:45:44 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-05 16:45:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:45:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:45:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:45:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:11 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[4]' is not present after '2' second(s)
+
+2019-08-05 16:46:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:39 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-05 16:46:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:46:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:46:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:46:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:47:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:47:07 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-05 16:47:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:47:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:47:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:47:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:47:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:47:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:47:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:47:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:47:34 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-05 16:47:34 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 16:47:34 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:47:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-05 16:47:35 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 16:47:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 16:47:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 16:47:43 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 16:47:44 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-05 16:47:44 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 16:47:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:47:47 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 16:47:47 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 16:47:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:47:51 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 16:47:51 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:47:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 16:48:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:48:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:48:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:48:06 - [MESSAGE][PASSED] - Text of object '' is: 'READY FOR REVIEW'
+
+2019-08-05 16:48:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:48:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:48:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:48:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:48:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:48:16 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-05 16:48:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:48:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:48:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:48:35 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.R5K4N' is set on object ''
+
+2019-08-05 16:48:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:48:37 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.R5K4N'
+
+2019-08-05 16:48:37 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.R5K4N' and expected text 'Because I see the mind is the most important.R5K4N' are matched 
+
+2019-08-05 16:48:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:48:47 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft'
+
+2019-08-05 16:48:47 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft' are not matched 
+
+2019-08-05 16:48:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:48:57 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft'
+
+2019-08-05 16:48:57 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft' and expected text 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft' are matched 
+
+2019-08-05 16:48:57 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:04 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:49:04 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:12 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:49:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:49:15 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:22 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:22 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:49:22 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:29 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:29 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:49:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:49:32 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:39 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:49:39 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:46 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:49:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:49:49 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:49:56 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:49:56 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:49:56 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:50:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:50:03 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:50:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:50:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:50:16 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft'
+
+2019-08-05 16:50:16 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft' and expected text 'Last draft saved on: 05 Aug 2019 04:48:37 PM  Clear draft' are matched 
+
+2019-08-05 16:50:17 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.fill_date_field_autosave(LeedOnlineKeywords.groovy:743)
+	at projectKeywords.LeedOnlineKeywords$fill_date_field_autosave$21.call(Unknown Source)
+	at Common_StepDef.user_verifies_Auto_save_after_entering_the_date_field(Common_StepDef.groovy:684)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <iframe src="https://leedonline-api-stg.usgbc.org/Credit/form/THpJeHo1djIwTjF0dzAyRjBZd2d0RCsrTEVxZVlPRUozemR3dm1vSnlDOXNhODFQYW43M3VQTWRhS1N6a1VQZmNkSWtSKzlhQ2RYRy92OXNpaVFzL29EVVNZS0h6akZUWitqcmF3VFBKaXd5YzY0UHYvYXpab3Y1SGZrM3RFYzgzTjR0Qm5lL2hlZlZsNlhEcWRGSXlhUTVnS0MzL2FyTXpUVktLSG9wVkpqY0tYcmxzYlRTS3gwOExHUlNIVW00R1AxdFQ3TmVCeW5jZzZKMmhFdUJGMDBSLzhtMFUrc011bUlERTd5dC9iRVFHK05PSjc2am9xcDRtczBURU5hQjNkSjV5UGtkNHZDbndlL3JzRFhPUXJBU1hIdEp3UTRYVlE1U1hPeWVVcnZMQ2U0TXpudlhPdEg3SFZmNGNTNGtuM3pLY0I2NDM3QUZINFNZV1ZuMTk3ckxEOUVsbmFxMUEyV0d0WlJBOTVZPSRjV1BDOVZXRDRUMD0?initialWidth=698&amp;childId=creditHtmlForm&amp;parentTitle=LEED%20Online&amp;parentUrl=https%3A%2F%2Fleedonline-stg.usgbc.org%2Fform%2FsimpleForm%3F__creditId%3DEBCTEA102L-1000163422%26__creditShortId%3DEA102%26creditHash%3Da75462c591a6184ed3d4bdceb8fdceac%26projectId%3D1000163422" width="100%" scrolling="no" marginheight="0" frameborder="0" height="1209px" cd_frame_id_="5762c62c2c90c3c960d30dbcd8ab9205"></iframe> is not clickable at point (228, 19). Other element would receive the click: <div class="alert alert-error" style="padding: 15px; margin-bottom: 1px; overflow-wrap: break-word;">...</div>
+  (Session info: headless chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT025', ip: '192.168.232.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PROMAN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52128}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 20dac236567ac9b63a69f384fa9945d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.fill_date_field_autosave(LeedOnlineKeywords.groovy:743)
+	at projectKeywords.LeedOnlineKeywords$fill_date_field_autosave$21.call(Unknown Source)
+	at Common_StepDef.user_verifies_Auto_save_after_entering_the_date_field(Common_StepDef.groovy:684)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190805_163907\\1565004016812.png]]
+
+2019-08-05 16:50:17 - [MESSAGE][FAILED] - These following reason:
+ [Unable to click on object '']
+
+2019-08-05 16:50:17 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)
+)]]></system-out>
+         <system-err><![CDATA[2019-08-05 16:39:15 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-05 16:39:15 - [TEST_SUITE][FAILED] - demo_EEBM: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-08-05 16:39:15 - [TEST_SUITE][FAILED] - demo_EEBM: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351868.run(TempTestSuite1565003351868.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

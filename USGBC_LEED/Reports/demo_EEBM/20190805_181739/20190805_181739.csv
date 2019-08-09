@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demo_EEBM,Chrome 75.0.3770.142,,,2019-08-05 18:17:47,2019-08-05 18:18:26,38.371s,FAILED
+,,,,,,,
+Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices,Chrome 75.0.3770.142,,,2019-08-05 18:17:48,2019-08-05 18:18:25,36.752s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.142,,,2019-08-05 18:17:48,2019-08-05 18:17:49,1.161s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices),Chrome 75.0.3770.142,,,2019-08-05 18:17:50,2019-08-05 18:18:25,35.074s,FAILED

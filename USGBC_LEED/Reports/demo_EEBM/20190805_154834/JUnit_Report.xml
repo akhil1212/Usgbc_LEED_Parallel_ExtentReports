@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demo_EEBM" time="335" tests="1" failures="0" errors="0">
+   <testsuite name="demo_EEBM" tests="1" failures="0" errors="0" time="335" timestamp="2019-08-05 15:48:42" hostname="promantus inc - G10PROLT025" id="Test Suites/demo_EEBM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190805_154834"/>
+         <property name="logFiles" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190805_154834\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="55cd34558df47ab19f2cac9a4791a31a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices" classname="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices" status="PASSED">
+         <system-out><![CDATA[2019-08-05 15:48:43 - [TEST_CASE][PASSED] - Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices
+
+2019-08-05 15:48:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-05 15:48:43 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-05 15:48:43 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-05 15:48:43 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-05 15:48:43 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-05 15:48:44 - [TEST_STEP][PASSED] - runWithCucumberRunner(runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices): Run with 'runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices' was passed
+
+2019-08-05 15:48:47 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 15:48:47 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 15:48:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-05 15:48:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-05 15:48:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 15:48:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 15:48:56 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 15:48:57 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-05 15:48:57 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 15:49:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:49:00 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 15:49:00 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 15:49:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 15:49:05 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 15:49:05 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 15:49:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 15:49:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:49:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:49:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:49:19 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 15:49:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:49:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:49:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:49:24 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-05 15:49:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:49:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:49:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:49:42 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-05 15:49:42 - [MESSAGE][PASSED] - Actual text 'Energy Efficiency Best Management Practices' and expected text 'Energy Efficiency Best Management Practices' are matched 
+
+2019-08-05 15:49:42 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-05 15:49:42 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:49:49 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:49:49 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 15:49:49 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:49:56 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:49:56 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 15:49:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:50:00 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:50:07 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:50:07 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 15:50:07 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:50:14 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:50:14 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 15:50:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:50:17 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:50:24 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:50:24 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 15:50:24 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:50:31 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:50:31 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 15:50:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:50:34 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:50:41 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:50:41 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 15:50:41 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 15:50:48 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 15:50:48 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 15:50:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 15:50:52 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:50:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:50:54 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 15:50:54 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:50:54 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:50:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:50:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:50:58 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 15:50:58 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:50:58 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:51:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:01 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 15:51:01 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:51:01 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:51:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:05 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 15:51:05 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:51:05 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:51:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:07 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 15:51:07 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:51:07 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:51:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:12 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 15:51:12 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:51:12 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:51:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:14 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-05 15:51:14 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:51:14 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:51:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:18 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-05 15:51:18 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:51:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:51:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:51:26 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:51:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:51:31 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:51:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:51:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:51:41 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:51:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:51:46 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:51:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:51:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:51:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:51:56 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:51:56 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:51:56 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:51:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:52:01 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:52:01 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:52:01 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:52:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:52:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:52:11 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:52:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:52:16 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:52:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:52:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:52:25 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:52:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:52:30 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:52:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:52:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:52:41 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:52:41 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:52:41 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:52:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:52:46 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:52:46 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:52:46 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:52:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:52:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:52:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:52:55 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:53:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:00 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:53:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:53:10 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:53:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:15 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:53:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:53:25 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:53:25 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:53:25 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:53:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:53:30 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:53:30 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:53:30 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:53:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:53:40 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-05 15:53:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:45 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:53:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:53:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 15:53:54 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-05 15:53:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:53:59 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-05 15:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:54:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 15:54:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:54:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:54:10 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:54:10 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:54:10 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-05 15:54:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:54:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:54:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-05 15:54:15 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-05 15:54:15 - [MESSAGE][PASSED] - 
+
+2019-08-05 15:54:15 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-05 15:54:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 15:54:17 - [MESSAGE][PASSED] - Run with 'runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-05 15:48:42 - [TEST_SUITE][PASSED] - demo_EEBM: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

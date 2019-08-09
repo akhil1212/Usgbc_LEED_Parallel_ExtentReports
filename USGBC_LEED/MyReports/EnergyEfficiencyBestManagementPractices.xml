@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="232.695526">
+<testcase classname="Energy Efficiency Best Management Practices - LEED v4.1 O+M: EB" name="Filling Energy Efficiency Best Management Practices" time="232.695526">
+<system-out><![CDATA[Given User clicks on project O+M:EB.........................................passed
+And User navigates to the credits page of the project.......................passed
+And User should be on form Energy Efficiency Best Management Practices......passed
+And User verifies form version,credit name matches in scorecard and form page.passed
+And User uploads files to Add file button...................................passed
+And User deletes the uploaded files and verifies the files are deleted......passed
+]]></system-out>
+</testcase>
+</testsuite>

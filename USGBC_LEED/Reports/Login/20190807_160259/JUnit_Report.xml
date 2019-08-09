@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="22" timestamp="2019-08-07 16:03:06" hostname="promantus inc - G10PROLT025" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\Login\\20190807_160259"/>
+         <property name="logFiles" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\Login\\20190807_160259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="6021c0a79c97189f958844c17af252ca"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login" classname="Test Cases/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-08-07 16:03:07 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-07 16:03:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-07 16:03:07 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-07 16:03:07 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-07 16:03:07 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-07 16:03:07 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-07 16:03:08 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-07 16:03:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-07 16:03:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-07 16:03:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-07 16:03:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-07 16:03:15 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-07 16:03:15 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-07 16:03:15 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-07 16:03:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 16:03:18 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-07 16:03:19 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-07 16:03:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 16:03:23 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-07 16:03:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 16:03:28 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-07 16:03:28 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-07 16:03:06 - [TEST_SUITE][PASSED] - Login: Test Cases/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

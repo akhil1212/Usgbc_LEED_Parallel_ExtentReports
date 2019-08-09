@@ -1,0 +1,112 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 39,
+        "name": "Filling Energy Efficiency Best Management Practices",
+        "description": "",
+        "id": "energy-efficiency-best-management-practices---leed-v4.1-o+m:-eb;filling-energy-efficiency-best-management-practices;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23059640860,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on project O+M:EB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "O+M:EB",
+                  "offset": 23
+                }
+              ],
+              "location": "Common_StepDef.user_clicks_on_Project(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4119627206,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigates to the credits page of the project",
+            "match": {
+              "location": "Common_StepDef.user_navigates_to_the_credits_page_of_the_project()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23495990464,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be on form Energy Efficiency Best Management Practices",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Energy Efficiency Best Management Practices",
+                  "offset": 23
+                }
+              ],
+              "location": "Common_StepDef.user_should_be_on_FRM_form(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217293150,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verifies form version,credit name matches in scorecard and form page",
+            "match": {
+              "location": "Common_StepDef.user_verifies_form_version_credit_name_matches_in_scorecard_and_form_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69498632778,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User uploads files to Add file button",
+            "match": {
+              "location": "Common_StepDef.user_uploads_files_to_Add_file_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112276142598,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User deletes the uploaded files and verifies the files are deleted",
+            "match": {
+              "location": "Common_StepDef.user_deletes_the_uploaded_files()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Energy Efficiency Best Management Practices - LEED v4.1 O+M: EB",
+    "description": "",
+    "id": "energy-efficiency-best-management-practices---leed-v4.1-o+m:-eb",
+    "keyword": "Feature",
+    "uri": "Include/features/OM_ExistingBuildings/EnergyEfficiencyBestManagementPractices.feature",
+    "tags": []
+  }
+]

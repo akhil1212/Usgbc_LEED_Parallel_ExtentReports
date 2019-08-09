@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demo_EEBM" time="886" tests="1" failures="0" errors="0">
+   <testsuite name="demo_EEBM" tests="1" failures="0" errors="0" time="886" timestamp="2019-08-07 15:30:02" hostname="promantus inc - G10PROLT025" id="Test Suites/demo_EEBM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955"/>
+         <property name="logFiles" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\execution0.log"/>
+         <property name="attachments" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172835566.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_43_55_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_43_56_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172867819.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_28_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172873529.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_33_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172876226.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_36_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172877901.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_38_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172880588.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_40_IST_2019.png, H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172887302.png, H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_47_IST_2019.png"/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="9548933142058a3cb7fbd5982963a54a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices" classname="Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices" status="PASSED">
+         <system-out><![CDATA[2019-08-07 15:30:03 - [TEST_CASE][PASSED] - Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices
+
+2019-08-07 15:30:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-07 15:30:03 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-07 15:30:03 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-07 15:30:03 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-07 15:30:03 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-07 15:30:04 - [TEST_STEP][PASSED] - runWithCucumberRunner(runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices): Run with 'runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices' was passed
+
+2019-08-07 15:30:04 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-07 15:30:05 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-07 15:30:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-07 15:30:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-07 15:30:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-07 15:30:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-07 15:30:18 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-07 15:30:19 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-07 15:30:19 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-07 15:30:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:30:22 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-07 15:30:22 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-07 15:30:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 15:30:26 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-07 15:30:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:30:31 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-07 15:30:31 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-07 15:30:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-07 15:30:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:30:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:30:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:30:37 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-07 15:30:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:30:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:30:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:30:42 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-07 15:30:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:30:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:30:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:30:54 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-07 15:30:54 - [MESSAGE][PASSED] - Actual text 'Energy Efficiency Best Management Practices' and expected text 'Energy Efficiency Best Management Practices' are matched 
+
+2019-08-07 15:30:54 - [MESSAGE][PASSED] - Text '(V01)' is present on page 
+
+2019-08-07 15:30:54 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:01 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:01 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:31:02 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:09 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:09 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:31:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:31:12 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:19 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:19 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:31:19 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:26 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:26 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:31:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:31:29 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:36 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:36 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:31:36 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:43 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:43 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:31:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:31:46 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:31:53 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:31:53 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:31:53 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:32:00 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:32:00 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:32:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:32:03 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:32:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:06 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-07 15:32:06 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:32:06 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:32:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:10 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-07 15:32:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:32:10 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:32:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:12 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-07 15:32:12 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:32:12 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:32:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:16 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-07 15:32:16 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:32:16 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:32:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:18 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-07 15:32:18 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:32:18 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:32:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:23 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-07 15:32:23 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:32:23 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:32:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:25 - [MESSAGE][PASSED] - COO_1.pdf is equal to COO_1.pdf
+
+2019-08-07 15:32:25 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:32:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:32:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:29 - [MESSAGE][PASSED] - ZZ.pdf is equal to ZZ.pdf
+
+2019-08-07 15:32:29 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:32:31 - [MESSAGE][PASSED] - Text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.AH2K4' is set on object ''
+
+2019-08-07 15:32:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:33 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.AH2K4'
+
+2019-08-07 15:32:33 - [MESSAGE][PASSED] - Actual text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.AH2K4' and expected text 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.AH2K4' are matched 
+
+2019-08-07 15:32:33 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-07 15:32:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:32:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:32:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:35 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Jul 2019'
+
+2019-08-07 15:32:35 - [MESSAGE][PASSED] - Actual text '05 Jul 2019' and expected text '' are not matched 
+
+2019-08-07 15:32:35 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Jul 2019'
+
+2019-08-07 15:32:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:32:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 15:32:39 - [MESSAGE][PASSED] - Text 'Form data saved successfully.' is present on page 
+
+2019-08-07 15:32:45 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-07 15:32:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:32:47 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-07 15:32:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:32:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-07 15:33:04 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-08-07 15:33:05 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-07 15:33:05 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-07 15:33:06 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-07 15:33:06 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-07 15:33:06 - [MESSAGE][PASSED] - Text of object '' is: 'Known that everybody have the personal aim. It is defferent . For example, there are some people think that the most important thing in them life is career. While there are other people think that is family. me too. The most important thing with my life is my small and big family.AH2K4'
+
+2019-08-07 15:33:06 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-07 15:33:06 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '05 Jul 2019'
+
+2019-08-07 15:33:06 - [MESSAGE][PASSED] - Actual text 'Found' and expected text 'Found' are matched 
+
+2019-08-07 15:33:07 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-08-07 15:33:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:33:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:33:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:33:17 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2019-08-07 15:33:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:33:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:33:25 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:33:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:30 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:33:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:33:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:33:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:33:39 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:33:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:33:54 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:33:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:34:05 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:34:05 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:34:05 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:34:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:34:10 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:34:10 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:34:10 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:34:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:34:19 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:34:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:39 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:34:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:34:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:34:48 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:34:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:34:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:35:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:08 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:36:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:36:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:36:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:36:18 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:36:18 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:36:18 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:36:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:36:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:36:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:36:23 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:36:24 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:36:24 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:36:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:36:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:36:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:36:33 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:36:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:36:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:28 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:37:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:37:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:37:37 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:37:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:42 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:37:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:37:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:37:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:37:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:37:52 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:37:52 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:37:52 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:37:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:37:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:37:57 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:37:57 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:37:57 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:37:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:38:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:38:07 - [MESSAGE][PASSED] - Text of object '' is: 'ZZ.pdf'
+
+2019-08-07 15:38:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:38:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:38:17 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:38:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:38:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:38:26 - [MESSAGE][PASSED] - Text of object '' is: 'COO_1.pdf'
+
+2019-08-07 15:38:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:38:31 - [MESSAGE][PASSED] - Object: '' is hovered
+
+2019-08-07 15:38:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:38:41 - [MESSAGE][PASSED] - COO_1.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:38:41 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:38:41 - [MESSAGE][PASSED] - Actual text 'COO_1.pdf' and expected text 'COO_1.pdf' are matched 
+
+2019-08-07 15:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-07 15:38:46 - [MESSAGE][PASSED] - ZZ.pdf exist in H:/USGBC_NewApproach1/USGBC_LEED/Include/TestData/DownloadedFiles/TC_EnergyEfficiencyBestManagementPractices and was deleted
+
+2019-08-07 15:38:46 - [MESSAGE][PASSED] - 
+
+2019-08-07 15:38:46 - [MESSAGE][PASSED] - Actual text 'ZZ.pdf' and expected text 'ZZ.pdf' are matched 
+
+2019-08-07 15:38:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:38:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:38:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:38:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:38:54 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-07 15:38:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:21 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[4]' is not present after '2' second(s)
+
+2019-08-07 15:39:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:49 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-07 15:39:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:39:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:39:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:39:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:40:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:40:17 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-07 15:40:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:40:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:40:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:40:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:40:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:40:45 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-07 15:40:45 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-07 15:40:45 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-07 15:40:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-07 15:40:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-07 15:40:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-07 15:40:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-07 15:40:55 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-07 15:40:55 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-07 15:40:55 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-07 15:40:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:40:58 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-07 15:40:59 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-07 15:41:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 15:41:03 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-07 15:41:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:41:11 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-07 15:41:11 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-07 15:41:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-07 15:41:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:41:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:41:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:41:20 - [MESSAGE][PASSED] - Text of object '' is: 'READY FOR REVIEW'
+
+2019-08-07 15:41:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:41:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:41:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:41:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:41:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:41:31 - [MESSAGE][PASSED] - Text of object '' is: 'Energy Efficiency Best Management Practices'
+
+2019-08-07 15:41:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:41:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:41:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-07 15:41:42 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.WSL53' is set on object ''
+
+2019-08-07 15:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-07 15:41:44 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.WSL53'
+
+2019-08-07 15:41:44 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.WSL53' and expected text 'Because I see the mind is the most important.WSL53' are matched 
+
+2019-08-07 15:41:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-07 15:41:55 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft'
+
+2019-08-07 15:41:55 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft' are not matched 
+
+2019-08-07 15:42:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-07 15:42:05 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft'
+
+2019-08-07 15:42:05 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft' and expected text 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft' are matched 
+
+2019-08-07 15:42:05 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:42:12 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:42:12 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:42:12 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:42:19 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:42:19 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:42:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:42:22 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:42:29 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:42:29 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:42:29 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:42:36 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:42:36 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:42:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:42:39 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:42:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:42:46 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:42:46 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:42:53 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:42:53 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:42:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:42:56 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:43:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:43:04 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-07 15:43:04 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-07 15:43:11 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-07 15:43:11 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-07 15:43:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-07 15:43:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-07 15:43:24 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft'
+
+2019-08-07 15:43:24 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft' and expected text 'Last draft saved on: 07 Aug 2019 03:41:46 PM  Clear draft' are matched 
+
+2019-08-07 15:43:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-07 15:43:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='vdp-datepicker__calendar']//span[@class='cell day' and  text()='7'] | //div[@class='vdp-datepicker__calendar']//span[@class='cell day selected' and  text()='7']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:43:55 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.fill_date_field_autosave(LeedOnlineKeywords.groovy:748)
+	at projectKeywords.LeedOnlineKeywords$fill_date_field_autosave$22.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_Auto_save_after_entering_the_date_field(Common_StepDef.groovy:905)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //div[@class='vdp-datepicker__calendar']//span[@class='cell day' and  text()='7'] | //div[@class='vdp-datepicker__calendar']//span[@class='cell day selected' and  text()='7']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.fill_date_field_autosave(LeedOnlineKeywords.groovy:748)
+	at projectKeywords.LeedOnlineKeywords$fill_date_field_autosave$22.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_Auto_save_after_entering_the_date_field(Common_StepDef.groovy:905)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172835566.png]]
+
+2019-08-07 15:43:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_43_55_IST_2019.png]]
+
+2019-08-07 15:43:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_43_56_IST_2019.png]]
+
+2019-08-07 15:44:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='my-account']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:44:28 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at common.Common_StepDef.user_logout_and_login_to_the_form(Common_StepDef.groovy:1266)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //li[@id='my-account']/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at common.Common_StepDef.user_logout_and_login_to_the_form(Common_StepDef.groovy:1266)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172867819.png]]
+
+2019-08-07 15:44:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_28_IST_2019.png]]
+
+2019-08-07 15:44:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 15:44:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:44:33 - [MESSAGE][FAILED] - Unable to verify image '' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image '' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_warning_message_of_form_saved_as_draft(Common_StepDef.groovy:1112)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //iframe' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_warning_message_of_form_saved_as_draft(Common_StepDef.groovy:1112)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172873529.png]]
+
+2019-08-07 15:44:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_33_IST_2019.png]]
+
+2019-08-07 15:44:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:44:36 - [MESSAGE][FAILED] - Unable to verify image '' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image '' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.click_save_button(LeedOnlineKeywords.groovy:448)
+	at projectKeywords.LeedOnlineKeywords$click_save_button$10.call(Unknown Source)
+	at common.Common_StepDef.User_clicks_on_Save_button_and_deletes_the_uploaded_files(Common_StepDef.groovy:1180)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //iframe' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.click_save_button(LeedOnlineKeywords.groovy:448)
+	at projectKeywords.LeedOnlineKeywords$click_save_button$10.call(Unknown Source)
+	at common.Common_StepDef.User_clicks_on_Save_button_and_deletes_the_uploaded_files(Common_StepDef.groovy:1180)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172876226.png]]
+
+2019-08-07 15:44:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_36_IST_2019.png]]
+
+2019-08-07 15:44:36 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '3' second(s)
+
+2019-08-07 15:44:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:44:38 - [MESSAGE][FAILED] - Unable to verify image '' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image '' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_clear_draft_warning_message_are_not_present(Common_StepDef.groovy:1147)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //iframe' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_clear_draft_warning_message_are_not_present(Common_StepDef.groovy:1147)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172877901.png]]
+
+2019-08-07 15:44:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_38_IST_2019.png]]
+
+2019-08-07 15:44:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:44:40 - [MESSAGE][FAILED] - Unable to verify image '' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image '' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.fill_narrative(LeedOnlineKeywords.groovy:204)
+	at projectKeywords.LeedOnlineKeywords$fill_narrative$6.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_Auto_save_after_entering_Narrative(Common_StepDef.groovy:802)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //iframe' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.fill_narrative(LeedOnlineKeywords.groovy:204)
+	at projectKeywords.LeedOnlineKeywords$fill_narrative$6.call(Unknown Source)
+	at common.Common_StepDef.user_verifies_Auto_save_after_entering_Narrative(Common_StepDef.groovy:802)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172880588.png]]
+
+2019-08-07 15:44:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_40_IST_2019.png]]
+
+2019-08-07 15:44:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-07 15:44:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //iframe'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-07 15:44:47 - [MESSAGE][FAILED] - Unable to verify image '' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image '' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.clear_draft(LeedOnlineKeywords.groovy:940)
+	at projectKeywords.LeedOnlineKeywords$clear_draft$25.call(Unknown Source)
+	at common.Common_StepDef.user_clears_draft(Common_StepDef.groovy:1164)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_EnergyEfficiencyBestManagementPractices.run(TC_EnergyEfficiencyBestManagementPractices:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565172000355.run(TempTestSuite1565172000355.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //iframe' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2869)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$10.call(Unknown Source)
+	at projectKeywords.LeedOnlineKeywords.clear_draft(LeedOnlineKeywords.groovy:940)
+	at projectKeywords.LeedOnlineKeywords$clear_draft$25.call(Unknown Source)
+	at common.Common_StepDef.user_clears_draft(Common_StepDef.groovy:1164)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563357581198.run(Script1563357581198.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\demo_EEBM\\20190807_152955\\1565172887302.png]]
+
+2019-08-07 15:44:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED//screenshots//Wed_Aug_07_15_44_47_IST_2019.png]]
+
+2019-08-07 15:44:48 - [MESSAGE][PASSED] - Run with 'runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-07 15:30:02 - [TEST_SUITE][PASSED] - demo_EEBM: Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

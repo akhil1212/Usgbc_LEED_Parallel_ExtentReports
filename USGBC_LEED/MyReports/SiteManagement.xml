@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="47.071841">
+<testcase classname="Entering data to Site Management form - LEED v4.1 O+M: EB" name="Filling Project Information form" time="22.544181">
+<failure message="java.lang.NullPointerException: Cannot invoke method log() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:86)&#13;&#10;&#9;at ✽.User clicks on project O+M:EB(Include/features/OM_ExistingBuildings/SiteManagement.feature:14)&#13;&#10;"><![CDATA[Given User clicks on project O+M:EB.........................................failed
+And User navigates to the credits page of the project.......................skipped
+And User should be on form Site Management..................................skipped
+When User uploads files to Add file button..................................skipped
+And User verifies the uploaded files........................................skipped
+And User Enters data to Narrative field and verifies........................skipped
+And User clicks on Save button..............................................skipped
+Then User can able to see the form got saved................................skipped
+And User verifies the revision icon present after saving the form...........skipped
+And User dowloads the generated pdf form....................................skipped
+And User verifies the narrative from pdf and form page......................skipped
+And User verifies the uploaded files from pdf and form page.................skipped
+And User clicks the Complete icon to set status to Ready for Review.........skipped
+And User downloads the uploaded files and verifies..........................skipped
+And User clicks on cancel while deleting the uploaded file and verifies the files are retained.skipped
+And User deletes the uploaded files and verifies the files are deleted......skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method log() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:86)
+	at ✽.User clicks on project O+M:EB(Include/features/OM_ExistingBuildings/SiteManagement.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Entering data to Site Management form - LEED v4.1 O+M: EB" name="Checking Auto Save functionality in Site Management form" time="24.52766">
+<failure message="java.lang.NullPointerException: Cannot invoke method log() on null object&#13;&#10;&#9;at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)&#13;&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#13;&#10;&#9;at Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:86)&#13;&#10;&#9;at ✽.User clicks on project O+M:EB(Include/features/OM_ExistingBuildings/SiteManagement.feature:37)&#13;&#10;"><![CDATA[Given User clicks on project O+M:EB.........................................failed
+And User navigates to the credits page of the project.......................skipped
+And User should be on form Site Management..................................skipped
+And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative.skipped
+And User will not make any changes in the form and verifies form is not saved as draft.skipped
+And User uploads files to Add file button and verifies form is not saved as draft.skipped
+And User logout and login to the form Site Management and rating O+M:EB.....skipped
+And User verifies warning message of form saved as draft is present and draft not changed.skipped
+Then User clicks on Save button and deletes the uploaded files..............skipped
+And User verifies clear draft,warning message is not present................skipped
+And User verifies form draft is saved automatically after 10 sec complete by filling the Narrative.skipped
+And User clicks on clear draft and verifies the draft is not present........skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke method log() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:86)
+	at ✽.User clicks on project O+M:EB(Include/features/OM_ExistingBuildings/SiteManagement.feature:37)
+]]></failure>
+</testcase>
+</testsuite>

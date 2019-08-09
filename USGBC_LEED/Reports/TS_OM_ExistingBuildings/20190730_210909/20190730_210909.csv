@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OM_ExistingBuildings,Chrome 75.0.3770.100,,2019-07-30 21:09:26,2019-07-30 21:23:42,14m - 15.446s,PASSED
+,,,,,,
+Test Cases/OM_ExistingBuildings/TC_EnergyEfficiencyBestManagementPractices,Chrome 75.0.3770.100,,2019-07-30 21:09:27,2019-07-30 21:23:41,14m - 13.826s,PASSED
+runWithCucumberRunner(runner_OM_ExistingBuildings.EnergyEfficiencyBestManagementPractices),Chrome 75.0.3770.100,,2019-07-30 21:09:28,2019-07-30 21:23:41,14m - 13.289s,PASSED

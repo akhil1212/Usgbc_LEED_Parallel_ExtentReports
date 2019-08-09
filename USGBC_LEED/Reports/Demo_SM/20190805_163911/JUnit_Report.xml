@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo_SM" time="349" tests="0" failures="1" errors="0">
+   <testsuite name="Demo_SM" tests="0" failures="1" errors="0" time="349" timestamp="2019-08-05 16:39:16" hostname="promantus inc - G10PROLT025" id="Test Suites/Demo_SM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\Demo_SM\\20190805_163911"/>
+         <property name="logFiles" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\Demo_SM\\20190805_163911\\execution0.log"/>
+         <property name="attachments" value="H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\Demo_SM\\20190805_163911\\1565003407325.png"/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.232.1"/>
+         <property name="sessionId" value="e75ec30728b2cb16a7cf35b373cce4aa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OM_ExistingBuildings/TC_SiteManagement" classname="Test Cases/OM_ExistingBuildings/TC_SiteManagement" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OM_ExistingBuildings/TC_SiteManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)
+"/>
+         <system-out><![CDATA[2019-08-05 16:39:16 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_SiteManagement: Test Cases/OM_ExistingBuildings/TC_SiteManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)
+
+
+2019-08-05 16:39:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-08-05 16:39:16 - [TEST_STEP][PASSED] - a = testCaseContext.getTestCaseId(): null
+
+2019-08-05 16:39:16 - [TEST_STEP][PASSED] - lastWord = a.substring(a.lastIndexOf("/") + 1): null
+
+2019-08-05 16:39:16 - [TEST_STEP][PASSED] - currentTestCaseId = lastWord: null
+
+2019-08-05 16:39:17 - [TEST_STEP][PASSED] - println("GlobalVariable.currentTestCaseId#############" + lastWord): null
+
+2019-08-05 16:39:17 - [TEST_STEP][FAILED] - runWithCucumberRunner(runner_OM_ExistingBuildings.SiteManagementTestRunner): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)
+)
+
+2019-08-05 16:39:19 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 16:39:19 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:39:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 16:39:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-05 16:39:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 16:39:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 16:39:28 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 16:39:28 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-05 16:39:29 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 16:39:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:39:32 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 16:39:32 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:39:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 16:40:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[normalize-space()='BDD10 TestProject']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-05 16:40:07 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:75)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by 'By.xpath: //a[normalize-space()='BDD10 TestProject']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Common_StepDef.user_clicks_on_Project(Common_StepDef.groovy:75)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at Script1563359300935.run(Script1563359300935.groovy:17)
+	... 13 more
+)
+[[ATTACHMENT|H:\\USGBC_NewApproach1\\USGBC_LEED\\Reports\\Demo_SM\\20190805_163911\\1565003407325.png]]
+
+2019-08-05 16:40:07 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 16:40:07 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:40:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-05 16:40:08 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 16:40:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 16:40:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 16:40:15 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 16:40:15 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-05 16:40:15 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 16:40:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:18 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 16:40:18 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 16:40:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:40:22 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 16:40:22 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:40:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 16:40:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:40:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:40:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:40:33 - [MESSAGE][PASSED] - Text of object '' is: 'ATTEMPTED'
+
+2019-08-05 16:40:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:40:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:40:38 - [MESSAGE][PASSED] - Text of object '' is: 'Site Management'
+
+2019-08-05 16:40:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:40:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:40:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:40:53 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.J6NUI' is set on object ''
+
+2019-08-05 16:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:40:55 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.J6NUI'
+
+2019-08-05 16:40:55 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.J6NUI' and expected text 'Because I see the mind is the most important.J6NUI' are matched 
+
+2019-08-05 16:41:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:41:05 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft'
+
+2019-08-05 16:41:05 - [MESSAGE][PASSED] - Actual text 'null' and expected text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' are not matched 
+
+2019-08-05 16:41:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:41:15 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft'
+
+2019-08-05 16:41:15 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' and expected text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' are matched 
+
+2019-08-05 16:41:15 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:22 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:22 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:41:22 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:29 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:29 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:41:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:41:32 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:39 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:39 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:41:39 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:46 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:41:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:41:49 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:41:56 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:41:56 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\COO_1.pdf' sent to object: ''
+
+2019-08-05 16:41:56 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'tiny ui button'
+
+2019-08-05 16:42:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2019-08-05 16:42:03 - [MESSAGE][PASSED] - File 'H:\USGBC_NewApproach1\USGBC_LEED\Include\TestData\FilesToUpload\ZZ.pdf' sent to object: ''
+
+2019-08-05 16:42:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:42:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:42:17 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft'
+
+2019-08-05 16:42:17 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' and expected text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' are matched 
+
+2019-08-05 16:42:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:20 - [TEST_CASE][PASSED] - Test Cases/TC_Login: Test Cases/TC_Login
+
+2019-08-05 16:42:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(common.LoginRunner): Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:42:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-08-05 16:42:21 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-08-05 16:42:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-05 16:42:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-05 16:42:28 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-08-05 16:42:28 - [MESSAGE][PASSED] - Text 'automationbdd10@gmail.com' is set on object ''
+
+2019-08-05 16:42:29 - [MESSAGE][PASSED] - Text 'initpass' is set on object ''
+
+2019-08-05 16:42:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:42:32 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-08-05 16:42:32 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-08-05 16:42:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:42:36 - [MESSAGE][PASSED] - The form containing object: '' is submitted
+
+2019-08-05 16:42:36 - [MESSAGE][PASSED] - Run with 'common.LoginRunner' was passed
+
+2019-08-05 16:42:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login' successfully
+
+2019-08-05 16:42:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:42:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:42:51 - [MESSAGE][PASSED] - Text of object '' is: 'Site Management'
+
+2019-08-05 16:42:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-08-05 16:43:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:43:08 - [MESSAGE][PASSED] - Object '' is present
+
+2019-08-05 16:43:08 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft'
+
+2019-08-05 16:43:08 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' and expected text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' are matched 
+
+2019-08-05 16:43:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:43:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:40 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[3]' is not present after '2' second(s)
+
+2019-08-05 16:43:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:43:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:43:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:43:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:08 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[2]' is not present after '2' second(s)
+
+2019-08-05 16:44:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:44:35 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: (//table[@class='ui collapsing celled table unstackable'])[1]' is not present after '2' second(s)
+
+2019-08-05 16:44:35 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '3' second(s)
+
+2019-08-05 16:44:35 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //div[contains(text(),'Form drafted and not yet saved!')]' is not present after '2' second(s)
+
+2019-08-05 16:44:36 - [MESSAGE][PASSED] - Text 'Because I see the mind is the most important.Q91AQ' is set on object ''
+
+2019-08-05 16:44:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:38 - [MESSAGE][PASSED] - Text of object '' is: 'Because I see the mind is the most important.Q91AQ'
+
+2019-08-05 16:44:38 - [MESSAGE][PASSED] - Actual text 'Because I see the mind is the most important.Q91AQ' and expected text 'Because I see the mind is the most important.Q91AQ' are matched 
+
+2019-08-05 16:44:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-08-05 16:44:48 - [MESSAGE][PASSED] - Text of object '' is: 'Last draft saved on: 05 Aug 2019 04:44:37 PM  Clear draft'
+
+2019-08-05 16:44:48 - [MESSAGE][PASSED] - Actual text 'Last draft saved on: 05 Aug 2019 04:40:54 PM  Clear draft' and expected text 'Last draft saved on: 05 Aug 2019 04:44:37 PM  Clear draft' are not matched 
+
+2019-08-05 16:44:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:44:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-05 16:44:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-08-05 16:44:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-08-05 16:45:00 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //a[contains(text(),'Clear draft')]' is not present after '2' second(s)
+
+2019-08-05 16:45:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-08-05 16:45:05 - [MESSAGE][FAILED] - These following reason:
+ [Unable to click on object '']
+
+2019-08-05 16:45:05 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)
+)]]></system-out>
+         <system-err><![CDATA[2019-08-05 16:39:16 - [TEST_CASE][FAILED] - Test Cases/OM_ExistingBuildings/TC_SiteManagement: Test Cases/OM_ExistingBuildings/TC_SiteManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-05 16:39:16 - [TEST_SUITE][FAILED] - Demo_SM: Test Cases/OM_ExistingBuildings/TC_SiteManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-08-05 16:39:16 - [TEST_SUITE][FAILED] - Demo_SM: Test Cases/OM_ExistingBuildings/TC_SiteManagement FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to click on object '']
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:21)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)
+	at TC_SiteManagement.run(TC_SiteManagement:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1565003351908.run(TempTestSuite1565003351908.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
